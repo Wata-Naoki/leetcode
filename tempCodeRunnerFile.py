@@ -1,3 +1,5 @@
-n = input().strip()
-ind = n.rfind(' ')
-print(len(n[ind+1:]))
+
+x = '11'
+z = '1'
+
+print(int(x, 2) + int(z, 2))
