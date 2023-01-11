@@ -1,5 +1,3 @@
+x, z = map(str, input().split())
 
-x = '11'
-z = '1'
-
-print(int(x, 2) + int(z, 2))
+print(bin(int(x, 2) + int(z, 2))[2:])
